@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>系统配置</comment>
+	<entry key="URL_DOLOGIN"><![CDATA[http://www.zimuzu.tv/User/Login/ajaxLogin]]></entry>
+	<entry key="URL_SIGNPAGE"><![CDATA[http://www.zimuzu.tv/user/sign]]></entry>
+	<entry key="URL_DOSIGN"><![CDATA[http://www.zimuzu.tv//user/sign/dosign]]></entry>
+	<entry key="LOGIN_USER_NAME_KEY"><![CDATA[account]]></entry>
+	<entry key="LOGIN_USER_NAME_VALUE"><![CDATA[****,****,****]]></entry>
+	<entry key="LOGIN_USER_PASSWORD_KEY"><![CDATA[password]]></entry>
+	<entry key="LOGIN_USER_PASSWORD_VALUE"><![CDATA[****,****,****]]></entry>
+</properties>
