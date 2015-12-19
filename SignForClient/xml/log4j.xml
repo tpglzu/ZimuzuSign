@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/'>
+	
+	<appender name="rootAppender"
+		class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="datePattern" value="yyyyMMdd.H" />
+		<param name="file" value="${rootdir}/log/sign.log" />
+		<param name="append" value="true" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy/MM/dd HH:mm:ss.SSS} %x %p  LOCATION=%C{1}.%M(Line:%L) %m%n" />
+		</layout>
+		<filter class="org.apache.log4j.varia.StringMatchFilter" >
+			<param name="StringToMatch"  value="jp.co.nikkei.career.batch.common" />
+			<param name="AcceptOnMatch" value="false" />
+		</filter>
+	</appender>
+
+	<root>
+		<level value="info"/>
+		<appender-ref ref="rootAppender"/>
+	</root>
+	
+</log4j:configuration>
