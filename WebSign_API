@@ -1,0 +1,8 @@
+/zimuzu/sign/start
+/zimuzu/sign/stop
+/zimuzu/sign/status
+/zimuzu/sign/config/get
+/zimuzu/sign/config/set
+/zimuzu/sign/log/list
+/zimuzu/sign/log/get
+
